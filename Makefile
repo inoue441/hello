@@ -22,3 +22,7 @@ psalm_init:
 psalter:
 	./vendor/bin/psalter --issues=all
 .PHONY: psalter
+
+phan:
+	./vendor/bin/phan
+.PHONY: phan
