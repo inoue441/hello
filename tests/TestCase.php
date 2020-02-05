@@ -10,5 +10,6 @@ abstract class TestCase extends \PHPUnit\Framework\TestCase
         $subject = new Hello();
 
         $this->assertSame('Hello, World!', $subject->to('World'));
+        $this->assertSame('Hello, Miku!', $subject->to('Miku'));
     }
 }
