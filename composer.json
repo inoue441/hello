@@ -2,5 +2,18 @@
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bag2\\Hello\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bag2\\Hello\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
