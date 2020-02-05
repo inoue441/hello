@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpstan/phpstan": "^0.12.9",
+        "phpstan/extension-installer": "^1.0"
+    }
+}
