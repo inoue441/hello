@@ -10,3 +10,11 @@ update:
 phpstan:
 	./vendor/bin/phpstan analyse src --level=max
 .PHONY: phpstan
+
+psalm:
+	./vendor/bin/psalm
+.PHONY: psalm
+
+psalm_init:
+	./vendor/bin/psalm --init
+.PHONY: psalm_init
