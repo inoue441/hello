@@ -18,3 +18,7 @@ psalm:
 psalm_init:
 	./vendor/bin/psalm --init
 .PHONY: psalm_init
+
+psalter:
+	./vendor/bin/psalter --issues=all
+.PHONY: psalter
